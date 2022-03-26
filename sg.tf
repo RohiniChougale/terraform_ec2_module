@@ -1,5 +1,5 @@
-resource "aws_security_group" "allow_http_asg" {
-  name        = "allow_http_asg" 
+resource "aws_security_group" "allow_http" {
+  name        = "allow_http" 
   description = "Allow HTTP inbound traffic from LB"
 
   ingress {
